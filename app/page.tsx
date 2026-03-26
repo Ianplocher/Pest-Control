@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig } from "@/config/site.config";
 import Hero from "@/components/Hero";
 import TrustBar from "@/components/TrustBar";
@@ -163,15 +164,37 @@ export default function HomePage() {
             city count on us for reliable pest control in Riverside.
           </p>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {whyChooseUs.map((item) => (
+            {whyChooseUs.map((item, index) => (
               <div
                 key={item.title}
-                className="rounded-lg bg-white p-6 text-center shadow"
+                className="rounded-lg bg-white overflow-hidden shadow hover:shadow-lg transition-shadow"
               >
-                <h3 className="text-lg font-semibold text-[#14331A]">
-                  {item.title}
-                </h3>
-                <p className="mt-2 text-sm text-gray-600">{item.description}</p>
+                {index === 0 && (
+                  <div className="relative h-40">
+                    <Image
+                      src="/images/technician-working.jpg"
+                      alt="Licensed pest control technician in Riverside CA"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                )}
+                {index === 2 && (
+                  <div className="relative h-40">
+                    <Image
+                      src="/images/family-home.jpg"
+                      alt="Family-safe pest control for Riverside homes"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                )}
+                <div className="p-6 text-center">
+                  <h3 className="text-lg font-semibold text-[#14331A]">
+                    {item.title}
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-600">{item.description}</p>
+                </div>
               </div>
             ))}
           </div>
@@ -180,33 +203,65 @@ export default function HomePage() {
 
       {/* Section 4: How It Works */}
       <section className="bg-white py-16">
-        <div className="mx-auto max-w-4xl px-4">
-          <h2 className="text-center text-3xl font-bold text-[#14331A]">
-            How It Works
-          </h2>
-          <p className="mx-auto mt-4 max-w-xl text-center text-gray-600">
-            Getting pest control in Riverside CA has never been easier. Three
-            simple steps to a pest-free home.
-          </p>
-          <div className="mt-10 grid gap-8 md:grid-cols-3">
-            {howItWorks.map((item) => (
-              <div key={item.step} className="text-center">
-                <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-[#D7FD19] text-2xl font-bold text-[#14331A]">
-                  {item.step}
-                </div>
-                <h3 className="mt-4 text-lg font-semibold text-[#14331A]">
-                  {item.title}
-                </h3>
-                <p className="mt-2 text-sm text-gray-600">{item.description}</p>
+        <div className="mx-auto max-w-6xl px-4">
+          <div className="grid items-center gap-12 lg:grid-cols-2">
+            {/* Left: Image */}
+            <div className="relative hidden lg:block h-[480px] rounded-2xl overflow-hidden shadow-xl">
+              <Image
+                src="/images/home-exterior.jpg"
+                alt="Riverside CA home receiving pest control inspection"
+                fill
+                className="object-cover"
+              />
+            </div>
+
+            {/* Right: Steps */}
+            <div>
+              <h2 className="text-3xl font-bold text-[#14331A]">
+                How It Works
+              </h2>
+              <p className="mt-4 max-w-xl text-gray-600">
+                Getting pest control in Riverside CA has never been easier. Three
+                simple steps to a pest-free home.
+              </p>
+              <div className="mt-8 space-y-8">
+                {howItWorks.map((item) => (
+                  <div key={item.step} className="flex gap-5">
+                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#D7FD19] text-xl font-bold text-[#0D210F]">
+                      {item.step}
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-[#14331A]">
+                        {item.title}
+                      </h3>
+                      <p className="mt-1 text-sm text-gray-600">{item.description}</p>
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
+              <Link
+                href="/free-quote"
+                className="mt-8 inline-block rounded-md bg-[#D7FD19] px-8 py-3 font-bold text-[#0D210F] transition-all hover:bg-[#c2e316] shadow-md hover:shadow-lg"
+              >
+                Get Started Today
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Section 5: Reviews */}
-      <section className="bg-gray-50 py-16">
-        <div className="mx-auto max-w-6xl px-4">
+      <section className="relative py-16">
+        {/* Subtle background image */}
+        <Image
+          src="/images/family-home.jpg"
+          alt=""
+          fill
+          className="object-cover"
+          aria-hidden="true"
+        />
+        <div className="absolute inset-0 bg-[#F5F7ED]/95" />
+        <div className="relative z-10 mx-auto max-w-6xl px-4">
           <h2 className="text-center text-3xl font-bold text-[#14331A]">
             What Riverside Homeowners Are Saying
           </h2>
