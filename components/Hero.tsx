@@ -7,8 +7,8 @@ export default function Hero() {
     <section className="relative min-h-[500px] md:min-h-[600px] flex items-center">
       {/* Background Image */}
       <Image
-        src="/images/hero-technician.jpg"
-        alt="Professional pest control service in Riverside CA"
+        src="/images/hero-family.jpg"
+        alt="Happy family in front of their pest-free Riverside CA home"
         fill
         className="object-cover"
         priority
