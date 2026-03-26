@@ -14,15 +14,15 @@ export const metadata: Metadata = {
   },
   description:
     "Riverside Pest Control provides licensed, family-safe pest control in Riverside CA. Ants, termites, rodents, spiders, cockroaches, and wasps. Free quotes. Call (951) 555-0100.",
-  metadataBase: new URL("https://riversidepestcontrol.com"),
+  metadataBase: new URL("https://riversidepestexperts.com"),
   alternates: {
-    canonical: "https://riversidepestcontrol.com",
+    canonical: "https://riversidepestexperts.com",
   },
   openGraph: {
     title: "Pest Control Riverside CA | Riverside Pest Control",
     description:
       "Trusted pest control in Riverside CA. Licensed exterminators serving all Riverside neighborhoods. Free quotes available.",
-    url: "https://riversidepestcontrol.com",
+    url: "https://riversidepestexperts.com",
     siteName: "Riverside Pest Control",
     locale: "en_US",
     type: "website",

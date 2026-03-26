@@ -2,169 +2,200 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://riversidepestcontrol.com</loc>
+    <loc>https://riversidepestexperts.com</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Services -->
   <url>
-    <loc>https://riversidepestcontrol.com/services</loc>
+    <loc>https://riversidepestexperts.com/services</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/services/ant-control</loc>
+    <loc>https://riversidepestexperts.com/services/ant-control</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/services/cockroach-control</loc>
+    <loc>https://riversidepestexperts.com/services/cockroach-control</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/services/rodent-control</loc>
+    <loc>https://riversidepestexperts.com/services/rodent-control</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/services/spider-control</loc>
+    <loc>https://riversidepestexperts.com/services/spider-control</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/services/termite-control</loc>
+    <loc>https://riversidepestexperts.com/services/termite-control</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/services/wasp-removal</loc>
+    <loc>https://riversidepestexperts.com/services/wasp-removal</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Free Quote -->
   <url>
-    <loc>https://riversidepestcontrol.com/free-quote</loc>
+    <loc>https://riversidepestexperts.com/free-quote</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Service Areas -->
   <url>
-    <loc>https://riversidepestcontrol.com/service-areas</loc>
+    <loc>https://riversidepestexperts.com/service-areas</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/service-areas/arlington-heights</loc>
+    <loc>https://riversidepestexperts.com/service-areas/arlington-heights</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/service-areas/canyon-crest</loc>
+    <loc>https://riversidepestexperts.com/service-areas/canyon-crest</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/service-areas/la-sierra</loc>
+    <loc>https://riversidepestexperts.com/service-areas/la-sierra</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/service-areas/wood-streets</loc>
+    <loc>https://riversidepestexperts.com/service-areas/wood-streets</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/service-areas/orangecrest</loc>
+    <loc>https://riversidepestexperts.com/service-areas/orangecrest</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/service-areas/hunter-park</loc>
+    <loc>https://riversidepestexperts.com/service-areas/hunter-park</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/service-areas/alessandro-heights</loc>
+    <loc>https://riversidepestexperts.com/service-areas/alessandro-heights</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/service-areas/victoria</loc>
+    <loc>https://riversidepestexperts.com/service-areas/victoria</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/service-areas/magnolia-center</loc>
+    <loc>https://riversidepestexperts.com/service-areas/magnolia-center</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/service-areas/downtown-riverside</loc>
+    <loc>https://riversidepestexperts.com/service-areas/downtown-riverside</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/service-areas/university-district</loc>
+    <loc>https://riversidepestexperts.com/service-areas/university-district</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/service-areas/arlanza</loc>
+    <loc>https://riversidepestexperts.com/service-areas/arlanza</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Blog -->
   <url>
-    <loc>https://riversidepestcontrol.com/blog</loc>
+    <loc>https://riversidepestexperts.com/blog</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/blog/how-much-does-pest-control-cost-riverside</loc>
+    <loc>https://riversidepestexperts.com/blog/how-much-does-pest-control-cost-riverside</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/blog/signs-you-have-termites-riverside</loc>
+    <loc>https://riversidepestexperts.com/blog/signs-you-have-termites-riverside</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/blog/common-pests-riverside-ca</loc>
+    <loc>https://riversidepestexperts.com/blog/common-pests-riverside-ca</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/blog/diy-vs-professional-pest-control-riverside</loc>
+    <loc>https://riversidepestexperts.com/blog/diy-vs-professional-pest-control-riverside</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/blog/pest-control-season-riverside-ca</loc>
+    <loc>https://riversidepestexperts.com/blog/pest-control-season-riverside-ca</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://riversidepestcontrol.com/blog/best-pest-control-riverside-ca</loc>
+    <loc>https://riversidepestexperts.com/blog/best-pest-control-riverside-ca</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- FAQ -->
   <url>
-    <loc>https://riversidepestcontrol.com/faq</loc>
+    <loc>https://riversidepestexperts.com/faq</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Privacy Policy -->
   <url>
-    <loc>https://riversidepestcontrol.com/privacy-policy</loc>
+    <loc>https://riversidepestexperts.com/privacy-policy</loc>
+    <lastmod>2025-03-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
